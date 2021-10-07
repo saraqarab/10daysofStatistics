@@ -1,9 +1,9 @@
-from testcase3 import x
+from testcase3_day0_mean_median_mode import x
 import json
 
-data =[int(i) for i in x.split(" ")]
 
 def get_stats(data):
+    data = [int(i) for i in data.split(" ")]
     x=sum(data)
     print(x/len(data))
     median(data)
@@ -43,8 +43,4 @@ def mode(data):
 
 
 
-get_stats(data)
-
-49921.5
-49253.5
-2184
+get_stats(x)

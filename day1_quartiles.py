@@ -21,9 +21,6 @@ def quartiles(arr):
 		r_arr.append(q3)
 	return r_arr
 
-			
-
-
 
 test_case1 = [3, 7, 8, 5, 12, 14, 21, 13,18] #['6', '12', '16']
 test_case2 = [3 ,7 ,8, 5 ,12 ,14 ,21 ,15 ,18 ,14] #7 13 15

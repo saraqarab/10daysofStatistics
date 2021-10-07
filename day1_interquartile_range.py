@@ -32,8 +32,4 @@ def floaterQuartile(values, freqs):
 	print(q3-q1) 
 
 
-
-	
-
-
 floaterQuartile(values, freqs)
